@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Loading Redirect Page</title>
+    <style>
+        body {
+            background-color: #000;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 50px;
+        }
+
+        h1 {
+            font-size: 36px;
+            margin-bottom: 30px;
+            text-shadow: 2px 2px #fff;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            margin-top: 30px;
+            animation: fill 5s linear forwards;
+        }
+
+        @keyframes fill {
+            0% {
+                height: 0%;
+            }
+
+            100% {
+                height: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Wait, we're making you some cash...</h1>
+    <iframe src="https://giphy.com/embed/cge9nG7e7wKWbMm9cY" width="480" height="480" frameBorder="0"
+        class="giphy-embed" allowFullScreen></iframe>
+    <p><a href="https://giphy.com/gifs/IntoAction-mental-health-action-day-goodgoodgeneral-cge9nG7e7wKWbMm9cY">via
+            GIPHY</a></p>
+    <script>
+        setTimeout(function () {
+            window.location.href = "https://tundrafile.com/show.php?l=0&u=1410146&id=40741&tracking_id=";
+        }, 5000); // 5000 milliseconds = 5 seconds
+    </script>
+</body>
+
+</html>
